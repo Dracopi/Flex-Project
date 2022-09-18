@@ -1,8 +1,91 @@
-.header {
+body {
+  /*  background-color: black; */
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* INICIO DE PRIMERA SECCIÓN*/
+.header { 
     display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
     flex-direction: column;
+    padding: 0 11%
 }
 
-.header .top {
+.header .top { /*Tengo que alinearlos en centro o hacer un margin de ambos lados, hacer que el logo tenga un tamaño mayor y los otros un menor constraste y tamaño*/
+    display: flex;
+  /*  border: solid red 1px; */
+    gap: 15px;
+
+}
+.top #this {
+  /* border: solid brown 1px */
+}
+
+a {
+    align-self: center;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.top .right {
+   /* border: solid salmon 1px; */
+    margin-left: auto;
+}
+
+.header .container { /* Se tiene que dividir el espacio entre .middle-text y .placeholder, además de crear un cuadro de gran tamaño para .placeholder*/
+    display: flex;
+   /* border: solid rgb(152, 118, 190) 1px; */
+    margin: 10% 0;
+}
+
+.container .middle-text{
+  /*   border: solid white 1px; */ } 
+
+#awesome {
+  /*  border: solid orange 1px; */
+    margin: 0;
+}
+#subtext {
+  /*  border: solid orange 1px; */
+    color: #c7c7c7;
+    margin: 0;
+    font-size: 15px;
+}
+.placeholder {
+   /* border: solid rgb(215, 221, 156) 1px; */
+    background-color: #808080;
+    width: 50%;
+    flex: 2 0 auto;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+}
+
+.text-place {
+    align-self: center;
+}
+button { /*Fondo azul, letras blancas y borde ligeramente redondo*/
+    background-color: #3882f6;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+/* FIN DE PRIMERA SECCIÓN*/
+/* INICIO DE SEGUNDA SECCIÓN*/
+
+.middle-top {
+    border: #1F2937 solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagesub {
     display: flex;
 }
