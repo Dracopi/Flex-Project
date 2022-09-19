@@ -2,6 +2,8 @@ body {
   /*  background-color: black; */
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-height: 100vh;
+    max-width: 100vw;
 }
 /* INICIO DE PRIMERA SECCIÓN*/
 .header { 
@@ -36,7 +38,7 @@ a {
 .header .container { /* Se tiene que dividir el espacio entre .middle-text y .placeholder, además de crear un cuadro de gran tamaño para .placeholder*/
     display: flex;
    /* border: solid rgb(152, 118, 190) 1px; */
-    margin: 10% 0;
+    margin: 8% 0;
 }
 
 .container .middle-text{
@@ -80,12 +82,104 @@ button { /*Fondo azul, letras blancas y borde ligeramente redondo*/
 /* INICIO DE SEGUNDA SECCIÓN*/
 
 .middle-top {
-    border: #1F2937 solid 1px;
+   /* border: #5d7699 solid 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2% 0 3% 0;
 }
 
 .imagesub {
     display: flex;
+   /* border: #3882f6 solid 1px;*/
+    gap: 50px;
+    text-align: center;
+}
+
+.group {
+ /* border: #808080 solid 1px; */
+  display: flex;
+  flex-flow: column;
+}
+
+img {
+  width: 175px;
+  height: 175px;
+   border: #3882f6 solid 3px; 
+}
+
+.text {
+  flex-wrap: wrap;
+  width: 175px;
+  font-size: 14px;
+}
+
+#info {
+  font-weight: 1000;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+/* FIN DE SEGUNDA SECCION*/
+/*INICIO DE TERCERA SECCION*/
+
+.middle-down {
+  display: flex;
+  border: #3882f6 solid 1px;
+  flex-direction: column;
+  padding: 50px 15%;
+  background-color: #e5e7eb;
+}
+
+#big-quote {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1F2937;
+  font-style: italic;
+}
+
+#small-quote {
+  align-self: flex-end;
+  font-weight: 900;
+}
+
+/*FIN DE TERCERA SECCION*/
+/*INICIO DE ULTIMA SECCION*/
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+ 
+ 
+}
+
+.down .container {
+  display: flex;
+  background-color: #3882f6;
+  width: 900px;
+  height: 120px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-around
+}
+.contain-text{
+ justify-content: flex-start;
+ color: #ffffff;
+}
+
+.action {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.small-text {
+  font-weight: 100;
+  font-size: 15px;
+}
+.butt{
+  border: solid 2px white;
+  align-self: center;
+  justify-content: center;
 }
