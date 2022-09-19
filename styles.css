@@ -183,3 +183,15 @@ img {
   align-self: center;
   justify-content: center;
 }
+
+/*FIN DE SECCION 4*/
+/*INICIO FOOTER*/
+
+.footer {
+  background-color: #1F2937;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 15px;
+}
