@@ -1,71 +1,57 @@
 body {
-  /*  background-color: black; */
-    margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    max-height: 100vh;
-    max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  max-height: 100vh;
+  max-width: 100vw;
 }
 /* INICIO DE PRIMERA SECCIÓN*/
 .header { 
-    display: flex;
-    background-color: #1F2937;
-    color: #f9faf8;
-    flex-direction: column;
-    padding: 0 11%
+  display: flex;
+  background-color: #1F2937;
+  color: #f9faf8;
+  flex-direction: column;
+  padding: 0 11%
 }
 
 .header .top { /*Tengo que alinearlos en centro o hacer un margin de ambos lados, hacer que el logo tenga un tamaño mayor y los otros un menor constraste y tamaño*/
-    display: flex;
-  /*  border: solid red 1px; */
-    gap: 15px;
-
-}
-.top #this {
-  /* border: solid brown 1px */
+  display: flex;
+  gap: 15px;
 }
 
 a {
-    align-self: center;
-    color: #f9faf8;
-    text-decoration: none;
+  align-self: center;
+  color: #f9faf8;
+  text-decoration: none;
 }
 
 .top .right {
-   /* border: solid salmon 1px; */
     margin-left: auto;
 }
 
 .header .container { /* Se tiene que dividir el espacio entre .middle-text y .placeholder, además de crear un cuadro de gran tamaño para .placeholder*/
-    display: flex;
-   /* border: solid rgb(152, 118, 190) 1px; */
-    margin: 8% 0;
+  display: flex;
+  margin: 8% 0;
 }
 
-.container .middle-text{
-  /*   border: solid white 1px; */ } 
-
-#awesome {
-  /*  border: solid orange 1px; */
-    margin: 0;
+#awesome,
+#subtext {
+  margin: 0;
 }
 #subtext {
-  /*  border: solid orange 1px; */
-    color: #c7c7c7;
-    margin: 0;
-    font-size: 15px;
+  color: #c7c7c7;
+  font-size: 15px;
 }
 .placeholder {
-   /* border: solid rgb(215, 221, 156) 1px; */
-    background-color: #808080;
-    width: 50%;
-    flex: 2 0 auto;
-    align-self: stretch;
-    display: flex;
-    justify-content: center;
+  background-color: #808080;
+  width: 50%;
+  flex: 2 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .text-place {
-    align-self: center;
+  align-self: center;
 }
 button { /*Fondo azul, letras blancas y borde ligeramente redondo*/
     background-color: #3882f6;
@@ -78,11 +64,9 @@ button { /*Fondo azul, letras blancas y borde ligeramente redondo*/
     font-weight: 600;
 }
 
-/* FIN DE PRIMERA SECCIÓN*/
-/* INICIO DE SEGUNDA SECCIÓN*/
+/* FIN DE PRIMERA SECCIÓN / INICIO DE SEGUNDA SECCIÓN*/
 
 .middle-top {
-   /* border: #5d7699 solid 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,26 +75,19 @@ button { /*Fondo azul, letras blancas y borde ligeramente redondo*/
 
 .imagesub {
     display: flex;
-   /* border: #3882f6 solid 1px;*/
     gap: 50px;
     text-align: center;
 }
 
-.group {
- /* border: #808080 solid 1px; */
-  display: flex;
-  flex-flow: column;
-}
-
 img {
-  width: 175px;
-  height: 175px;
+  width: 145px; /* Creo que son muy grandes! bajemosle un poco, estaba en 175px*/
+  height: 145px;
    border: #3882f6 solid 3px; 
 }
 
 .text {
   flex-wrap: wrap;
-  width: 175px;
+  width: 145px;
   font-size: 14px;
 }
 
@@ -118,14 +95,14 @@ img {
   font-weight: 1000;
   font-size: 36px;
   color: #1F2937;
+  padding-bottom: 30px;
 }
 
-/* FIN DE SEGUNDA SECCION*/
-/*INICIO DE TERCERA SECCION*/
+/* FIN DE SEGUNDA SECCION / INICIO DE TERCERA SECCION*/
+
 
 .middle-down {
   display: flex;
-  border: #3882f6 solid 1px;
   flex-direction: column;
   padding: 50px 15%;
   background-color: #e5e7eb;
@@ -143,16 +120,14 @@ img {
   font-weight: 900;
 }
 
-/*FIN DE TERCERA SECCION*/
-/*INICIO DE ULTIMA SECCION*/
+/*FIN DE TERCERA SECCION / INICIO DE ULTIMA SECCION*/
+
 
 .down {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 30px 0;
- 
- 
 }
 
 .down .container {
@@ -184,8 +159,8 @@ img {
   justify-content: center;
 }
 
-/*FIN DE SECCION 4*/
-/*INICIO FOOTER*/
+/*FIN DE SECCION 4 / INICIO FOOTER*/
+
 
 .footer {
   background-color: #1F2937;
